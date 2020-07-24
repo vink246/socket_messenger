@@ -9,6 +9,7 @@ setuptools.setup(
     packages=["socket_messenger"],
     include_package_data=True,
     url = "https://github.com/vink246/socket_messenger.git",
+    download_url = "https://github.com/vink246/socket_messenger/archive/v0.0.1-alpha.tar.gz"
     classifiers=[
         "Programming Language :: Python :: 3",
     ],
