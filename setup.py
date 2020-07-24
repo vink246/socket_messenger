@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="socket_messenger",
-    version="0.0.1",
+    version="v0.0.1-alpha",
     author="Vineet Kulkarni",
     author_email="2vineetk@gmail.com",
     description="Makes communication between devices using pubnub through Python easy",
