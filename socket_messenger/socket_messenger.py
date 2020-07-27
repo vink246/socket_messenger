@@ -52,7 +52,9 @@ class MessageManager:
                 pos = message.index(' ')
                 if message[0:pos] != str(self.dId):
                     identification = str(message[0:pos])
-                    return identification, str(message[pos+1:])
+                    m = str(message[pos+1:])
+                    message = ''
+                    return identification, m
                 else:
                     return None, None
             except ValueError:
